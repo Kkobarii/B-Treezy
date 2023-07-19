@@ -14,6 +14,10 @@ A simple implementation of a B-Tree data structure. The aim of this project is t
 - Visualization: Provides a simple console visual representation of the B-Tree structure.
 - Customizable order: Allows customization of the B-Tree order.
 
+### Visualization example
+
+![visualization](.readme_examples/tree_visualization.png)
+
 ## Usage
 
 ### Creation
