@@ -14,9 +14,43 @@ A simple implementation of a B-Tree data structure. The aim of this project is t
 - Visualization: Provides a simple console visual representation of the B-Tree structure.
 - Customizable order: Allows customization of the B-Tree order.
 
+## Usage
+
+### Creation
+```cpp
+// create a new tree and set its order
+BTree* tree = new BTree(3);
+```
+
+### Printing
+```cpp
+// print basic information about the tree
+tree->PrintInfo();
+
+// print current statistics about the tree
+tree->PrintStats();
+
+// print the contents of the tree
+tree->Print();
+```
+
+### Operations
+```cpp
+// each operation has a print and non-print variant
+
+// insert a node into the tree
+tree->InsertPrint(5);
+
+// find a node within the tree
+tree->FindPrint(5);
+
+// remove a node from the tree
+tree->RemovePrint(5);
+```
+
 ## TODO
 
 - Some sort of CLI (so far the project includes only the implementation and API).
-- Templated B-Tree (I learned about templates later).
+- Templated B-Tree (I learned about templates after finishing this project).
 
 > Originally made in December 2022
